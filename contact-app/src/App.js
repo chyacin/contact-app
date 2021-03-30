@@ -1,7 +1,7 @@
-import "./styles.css";
+import "./index.css";
 import Contact from "./components/Contact";
 
-export default function App() {
+ function App() {
   return (
     <div className="App">
      <Contact />
@@ -9,4 +9,5 @@ export default function App() {
   );
 }
 
+export default App;
 
